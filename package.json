@@ -1,0 +1,27 @@
+{
+  "name": "typescript-example",
+  "description": "Small example how to run Typescript code",
+  "version": "0.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=10.x"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest --config jest.config.json",
+    "lint": "tslint --format stylish --project tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^10",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.17.0",
+    "tslint-config-standard-plus": "^2.2.0",
+    "typescript": "^3.5.2"
+  }
+}
