@@ -16,6 +16,10 @@ git clone --depth 1 https://github.com/joseluisq/typescript-example.git
 yarn
 ```
 
+## Requirements
+
+- NodeJS >= 10
+
 ## Usage
 
 1. Run
@@ -30,7 +34,7 @@ yarn start
 yarn test
 ```
 
-5. Build
+3. Build
 
 ```sh
 yarn build
